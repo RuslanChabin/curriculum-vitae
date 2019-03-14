@@ -1,0 +1,46 @@
+body {
+	width: 100%;
+    font-family: "Myriad Pro", "Open Sans", sans-serif;
+    font-weight: 300;
+    color: $black;
+	background-color: $white;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: $black;
+
+    &:hover {
+        color: darken($blue, 20);
+        text-decoration: none;
+    }
+}
+
+.container {
+	width: auto;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 70px 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: none;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

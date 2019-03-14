@@ -1,0 +1,11 @@
+.column {
+	flex-grow: 0;
+	min-width: 320px;
+	height: auto;
+	padding-left: 50px;
+}
+
+.column--width {
+	flex-grow: 0.8;
+	padding-left: 70px;
+}
