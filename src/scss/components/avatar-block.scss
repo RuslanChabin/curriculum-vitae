@@ -25,20 +25,20 @@
 	margin: 0;
 	font-size: 4.1em;
 	text-transform: uppercase;
-}
-
-.avatar-block__text--large{
+	
+	&--large{
 	font-size: 4.6em;
-}
-
-.avatar-block__text--small{
+	}
+	
+	&--small{
 	font-size: 1.9em;
-}
-
-.avatar-block__text--bold{
+	}
+	
+	&--bold{
 	font-family: "Myriad Pro Bold";
-}
-
-.avatar-block__text--lowline{
+	}
+	
+	&--lowline{
 	line-height: 58px;
+	}
 }

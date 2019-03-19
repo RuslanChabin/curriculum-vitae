@@ -49,22 +49,22 @@
 	margin: 0;
 	margin-right: 32px;
 	margin-bottom: 4px;
-	font-size: 1.8em
-}
-
-.education-block__text--upper{
+	font-size: 1.8em;
+	
+	&--upper{
 	text-transform: uppercase;
-}
-
-.education-block__text--bold{
+	}
+	
+	&--bold{
 	font-family: "Myriad Pro Bold";
-}
-
-.education-block__text--blue{
+	}
+	
+	&--blue{
 	color: $blue;
-}
-
-.education-block__text--thin{
+	}
+	
+	&--thin{
 	font-size: 1.9em;
 	margin-bottom: -4px;
+	}
 }

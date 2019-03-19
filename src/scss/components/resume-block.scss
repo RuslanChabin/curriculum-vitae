@@ -18,25 +18,8 @@
 	font-size: 3em;
 	color: $blue;
 	margin-left: 110px;
-	@media screen and (max-width: 450px){
-		margin-bottom: 50px;
-		margin-left: 130px;
-		font-size: 2em;
-	}
-	@media screen and (max-width: 330px){
-		font-size: 1.5em;
-	}
-}
-
-.block__title--left{
-	margin-top: 30px;
-	margin-left: 173px;
-	@media screen and (max-width: 450px){
-		margin-left: 134px;
-	}
-}
-
-.block__title::after{
+	
+	&:after{
 	content: "";
 	position: absolute;
 	top: 21px;
@@ -44,8 +27,28 @@
 	height: 6px;
 	margin-left: 5px;
 	background-color: $blue;
-	@media screen and (max-width: 450px){
+	
+		@media screen and (max-width: 450px){
 		top: 11px;
+		}
+	}
+	
+	@media screen and (max-width: 450px){
+		margin-bottom: 50px;
+		margin-left: 130px;
+		font-size: 2em;
+	}
+	
+	@media screen and (max-width: 330px){
+		font-size: 1.5em;
+	}
+	
+	&--left{
+	margin-top: 30px;
+	margin-left: 173px;
+	@media screen and (max-width: 450px){
+		margin-left: 134px;
+		}
 	}
 }
 
@@ -59,18 +62,19 @@
 	line-height: 22px;
 	font-size: 18px;
 	font-family: "Myriad Pro";
+	
 	@media screen and (max-width: 450px){
 		margin-left: 20px
 	}
-}
-
-.block__text--bold{
+	
+	&--bold{
 	font-family: "Myriad Pro Bold";
-}
-
-.block__text--width{
+	}
+	
+	&--width{
 	max-width: 630px;
 	padding: 0;
 	padding-top: 15px;
 	margin: 0;
+	}
 }

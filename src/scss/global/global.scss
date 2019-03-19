@@ -14,16 +14,6 @@ img {
     border: 0;
 }
 
-a {
-    text-decoration: none;
-    color: $black;
-
-    &:hover {
-        color: darken($blue, 20);
-        text-decoration: none;
-    }
-}
-
 .container {
 	width: auto;
 	height: 100%;
@@ -33,6 +23,7 @@ a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	
 	@media screen and (max-width: 767px){
 		margin-left: 20px;
 	}
@@ -41,22 +32,11 @@ a {
 .wrapper{
 	display: flex;
 	flex-flow: row;
+	
 	@media screen and (max-width: 767px){
 		flex-flow: column;
 	}
-}
-
-.wrapper--wrap{
+	&--wrap{
 	flex-wrap: wrap;
-}
-
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: none;
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+	}
 }

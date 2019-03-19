@@ -6,11 +6,11 @@
 	margin: 0;
 	margin-right: 30px;
 	margin-bottom: 70px;
-}
-
-.column--width {
+	
+	&--width {
 	flex-grow: 0.9;
 	@media screen and (max-width: 767px){
 		width: 100%;
+		}
 	}
 }
