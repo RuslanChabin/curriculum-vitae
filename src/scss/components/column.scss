@@ -1,11 +1,16 @@
 .column {
-	flex-grow: 0;
-	min-width: 320px;
+	flex-grow: 0.1;
+	min-width: auto;
 	height: auto;
-	padding-left: 50px;
+	padding: 0;
+	margin: 0;
+	margin-right: 30px;
+	margin-bottom: 70px;
 }
 
 .column--width {
-	flex-grow: 0.8;
-	padding-left: 70px;
+	flex-grow: 0.9;
+	@media screen and (max-width: 767px){
+		width: 100%;
+	}
 }

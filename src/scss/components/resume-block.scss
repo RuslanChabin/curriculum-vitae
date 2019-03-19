@@ -1,14 +1,58 @@
 .block {
+	position: relative;
 	display: flex;
 	flex-direction: column;
 	width: 100%;
 	height: auto;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
 }
 
 .block__title {
+	position: relative;
+	width: auto;
 	text-transform: uppercase;
+	font-family: "Myriad Pro Bold";
 	font-weight: 900;
-	font-size: 2.8em;
+	font-size: 3em;
 	color: $blue;
-	padding-left: 14px;
+	margin-left: 110px;
+}
+
+.block__title--left{
+	padding-left: 38px;
+}
+
+.block__title::after{
+	content: "";
+	position: absolute;
+	top: 21px;
+	width: 100%;
+	height: 6px;
+	margin-left: 5px;
+	background-color: $blue;
+}
+
+.block__text{
+	display: block;
+	max-width: 490px;
+	padding-top: 7px;
+	padding-left: 10px;
+	padding-right: 0;
+	margin: 0;
+	line-height: 22px;
+	font-size: 18px;
+	font-family: "Myriad Pro";
+}
+
+.block__text--bold{
+	font-family: "Myriad Pro Bold";
+}
+
+.block__text--width{
+	max-width: 630px;
+	padding: 0;
+	padding-top: 15px;
+	margin: 0;
 }

@@ -2,8 +2,9 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding-top: 27px;
-	margin-bottom: 68px;
+	padding-top: 26px;
+	padding-left: 8px;
+	margin-bottom: 60px;
 	width: 100%;
 	height: auto;
 }
@@ -22,26 +23,22 @@
 	padding: 0;
 	padding-left: 4px;
 	margin: 0;
-	font-size: 3.7em;
+	font-size: 4.1em;
 	text-transform: uppercase;
 }
 
 .avatar-block__text--large{
-	font-size: 4.2em;
+	font-size: 4.6em;
 }
 
 .avatar-block__text--small{
-	font-size: 1.8em;
+	font-size: 1.9em;
 }
 
 .avatar-block__text--bold{
-	font-weight: 900;
-}
-
-.avatar-block__text--spacing {
-	word-spacing: 2px;
+	font-family: "Myriad Pro Bold";
 }
 
 .avatar-block__text--lowline{
-	line-height: 60px;
+	line-height: 58px;
 }

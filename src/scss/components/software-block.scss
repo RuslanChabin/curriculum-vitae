@@ -1,0 +1,111 @@
+.software-block__title::before{
+	content: "";
+	display: block;
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	background-image: url(../images/software-icon.svg);
+	background-size: cover;
+}
+
+.software-block__column{
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+.software-block__list{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.software-block__item{
+	padding: 0;
+	margin: 0;
+	margin-right: 30px;
+	width: 100%;
+	min-height: 77px;
+}
+
+.software-block__item-title{
+	position: relative;
+	padding-top: 0;
+	padding-left: 60px;
+	text-transform: uppercase;
+	line-height: 21px;
+	font-size: 1.7em;
+}
+
+.software-block__item-title--left{
+	padding-left: 72px;
+}
+
+.software-block__photoshop-prog::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 44px;
+	left: 57px;
+	width: 82%;
+	height: 28px;
+	background: linear-gradient(to right, $blue 0%, $blue 91%, $grey 91%, $grey 100%);
+}
+
+.software-block__illustrator-prog::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 44px;
+	left: 57px;
+	width: 82%;
+	height: 28px;
+	background: linear-gradient(to right, $blue 0%, $blue 71%, $grey 71%, $grey 100%);
+}
+
+.software-block__indesign-prog::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 44px;
+	left: 57px;
+	width: 82%;
+	height: 28px;
+	background: linear-gradient(to right, $blue 0%, $blue 57%, $grey 57%, $grey 100%);
+}
+
+.software-block__dreamweaver-prog::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 44px;
+	left: 68px;
+	width: 82%;
+	height: 28px;
+	background: linear-gradient(to right, $blue 0%, $blue 84%, $grey 84%, $grey 100%);
+}
+
+.software-block__after-effects-prog::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 44px;
+	left: 68px;
+	width: 82%;
+	height: 28px;
+	background: linear-gradient(to right, $blue 0%, $blue 62%, $grey 62%, $grey 100%);
+}
+
+.software-block__html-css-prog::after{
+	content: "";
+	display: block;
+	position: absolute;
+	top: 44px;
+	left: 68px;
+	width: 82%;
+	height: 28px;
+	background: linear-gradient(to right, $blue 0%, $blue 92%, $grey 92%, $grey 100%);
+}

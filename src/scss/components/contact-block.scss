@@ -1,0 +1,20 @@
+.contact-block{
+	margin-bottom: 30px;
+}
+
+.contact-block__table{
+	font-size: 1.3em;
+	margin-left: 20px;
+}
+
+.contact-block__cell {
+	padding-top: 15px;
+	padding-left: 0;
+	height: 48px;
+}
+
+.contact-block__cell--bold-title {
+	color: $blue;
+	font-weight: 900;
+	text-transform: uppercase;
+}
