@@ -1,20 +1,40 @@
 .contact-block{
-	margin-bottom: 30px;
+	margin-bottom: 19px;
+}
+
+.contact-block__title::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: -16px;
+	left: -100px;
+	width: 87px;
+	height: 87px;
+	background-image: url(../images/phone-icon.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .contact-block__table{
-	font-size: 1.3em;
-	margin-left: 20px;
+	width: 100%;
+	font-size: 1.6em;
+	margin-top: 2px;
+	margin-left: 5px;
+	@media screen and (max-width: 450px){
+		font-size: 1.2em;
+		margin-left: 40px;
+	}
 }
 
 .contact-block__cell {
-	padding-top: 15px;
+	padding-top: 5px;
+	padding-bottom: 10px;
 	padding-left: 0;
 	height: 48px;
 }
 
 .contact-block__cell--bold-title {
 	color: $blue;
-	font-weight: 900;
+	font-family: "Myriad Pro Bold";
 	text-transform: uppercase;
 }

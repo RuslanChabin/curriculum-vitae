@@ -1,11 +1,21 @@
+.software-block__title{
+	margin-bottom: 20px;
+	@media screen and (max-width: 550px){
+		margin-bottom: 50px;
+	}
+}
+
 .software-block__title::before{
 	content: "";
 	display: block;
 	position: absolute;
-	width: 80px;
-	height: 80px;
+	top: -19px;
+	left: -110px;
+	width: 87px;
+	height: 87px;
 	background-image: url(../images/software-icon.svg);
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .software-block__column{
@@ -14,6 +24,9 @@
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+	@media screen and (max-width: 550px){
+		margin-left: 20px;
+	}
 }
 
 .software-block__list{
@@ -25,10 +38,14 @@
 
 .software-block__item{
 	padding: 0;
+	padding-left: 13px;
 	margin: 0;
 	margin-right: 30px;
 	width: 100%;
 	min-height: 77px;
+	@media screen and (max-width: 440px){
+		width: 90vw;
+	}
 }
 
 .software-block__item-title{
@@ -36,76 +53,107 @@
 	padding-top: 0;
 	padding-left: 60px;
 	text-transform: uppercase;
-	line-height: 21px;
-	font-size: 1.7em;
+	line-height: 20px;
+	font-size: 1.8em;
+	@media screen and (max-width: 550px){
+		padding-left: 0;
+		font-size: 1.5em
+	}
 }
 
 .software-block__item-title--left{
 	padding-left: 72px;
+	@media screen and (max-width: 550px){
+		padding-left: 0;
+	}
 }
 
 .software-block__photoshop-prog::after{
 	content: "";
 	display: block;
 	position: absolute;
-	top: 44px;
+	top: 40px;
 	left: 57px;
 	width: 82%;
 	height: 28px;
 	background: linear-gradient(to right, $blue 0%, $blue 91%, $grey 91%, $grey 100%);
+	@media screen and (max-width: 550px){
+		left: auto;
+	}
 }
 
 .software-block__illustrator-prog::after{
 	content: "";
 	display: block;
 	position: absolute;
-	top: 44px;
+	top: 39px;
 	left: 57px;
 	width: 82%;
 	height: 28px;
 	background: linear-gradient(to right, $blue 0%, $blue 71%, $grey 71%, $grey 100%);
+	@media screen and (max-width: 550px){
+		left: auto;
+	}
+}
+
+.software-block__indesign-prog{
+	@media screen and (max-width: 550px){
+		margin-bottom: 0;
+	}
 }
 
 .software-block__indesign-prog::after{
 	content: "";
 	display: block;
 	position: absolute;
-	top: 44px;
+	top: 33px;
 	left: 57px;
 	width: 82%;
 	height: 28px;
 	background: linear-gradient(to right, $blue 0%, $blue 57%, $grey 57%, $grey 100%);
+	@media screen and (max-width: 550px){
+		left: auto;
+	}
 }
 
 .software-block__dreamweaver-prog::after{
 	content: "";
 	display: block;
 	position: absolute;
-	top: 44px;
+	top: 40px;
 	left: 68px;
 	width: 82%;
 	height: 28px;
-	background: linear-gradient(to right, $blue 0%, $blue 84%, $grey 84%, $grey 100%);
+	background: linear-gradient(to right, $blue 0%, $blue 83%, $grey 83%, $grey 100%);
+	@media screen and (max-width: 550px){
+		left: auto;
+	}
 }
 
 .software-block__after-effects-prog::after{
 	content: "";
 	display: block;
 	position: absolute;
-	top: 44px;
+	top: 38px;
 	left: 68px;
 	width: 82%;
 	height: 28px;
 	background: linear-gradient(to right, $blue 0%, $blue 62%, $grey 62%, $grey 100%);
+	@media screen and (max-width: 550px){
+		left: auto;
+	}
 }
 
 .software-block__html-css-prog::after{
 	content: "";
 	display: block;
 	position: absolute;
-	top: 44px;
+	top: 33px;
 	left: 68px;
 	width: 82%;
 	height: 28px;
 	background: linear-gradient(to right, $blue 0%, $blue 92%, $grey 92%, $grey 100%);
+	@media screen and (max-width: 550px){
+		left: auto;
+	}
 }

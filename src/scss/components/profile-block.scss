@@ -1,9 +1,12 @@
 .profile-block{
-	margin-bottom: 45px;
+	margin-bottom: 42px;
 }
 
 .pofile-block__title{
 	margin-bottom: 19px;
+	@media screen and (max-width: 450px){
+		margin-bottom: 50px;
+	}
 }
 
 .pofile-block__title::before{

@@ -2,13 +2,34 @@
 	margin-bottom: 20px;
 }
 
+.experience-block__wrapper{
+	margin-bottom: -10px;
+}
+
 .experience-block__title{
 	margin-bottom: 43px;
 }
 
+.experience-block__title::before{
+	content: "";
+	display: block;
+	position: absolute;
+	top: -16px;
+	left: -110px;
+	width: 87px;
+	height: 87px;
+	background-image: url(../images/experience-icon.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+
 .experience-block__list{
-	margin-left: 73px;
-	padding-top: 10px;
+	margin-left: 86px;
+	padding-top: 4px;
+	@media screen and (max-width: 550px){
+		margin-left: 50px;
+	}
 }
 
 .experience-block__item{
@@ -16,7 +37,7 @@
 	display: block;
 	max-width: 650px;
 	margin: 0;
-	margin-bottom: 17px;
+	margin-bottom: 15px;
 	padding: 0;
 }
 
@@ -34,7 +55,8 @@
 .experience-block__text{
 	padding: 0;
 	margin: 0;
-	margin-right: 10px;
+	margin-right: 33px;
+	margin-bottom: 4px;
 	font-size: 1.8em
 }
 
@@ -43,5 +65,5 @@
 }
 
 .experience-block__text--bold{
-	font-weight: 900;
+	font-family: "Myriad Pro Bold";
 }
